@@ -1,20 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-   <style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        .navbar {
-            min-height: 80px;
-            }
-        body{
-                font-family: 'Bangers', cursive;
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <style>
+    .navbar {
+      min-height: 80px;
+    }
+
+    body {
                 height: 800px;
                 width: 100%;
                 margin-bottom: 25px;
@@ -22,50 +23,88 @@
                 background-position: center;
                 background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
                 opacity: 2.0;
-                
+                font-family: 'Bangers', cursive;
+            }
+    
 
-        }
-        h1{
-            font-size: 100px;
-            text-align: center;
-            padding-top: 300px;
-            Color: blue;
-            
-        }
-        h1{
-            width: 500px;
-            border: 15px solid grey;
-            padding: 50px;
-             margin: 40px;
-             background-color: black;
-        }
-    </style>
-    <title>Portfilo</title>
-  </head>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Steven Brooks Mogbo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me<span class="sr-only">(Home)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    .card {
+      margin-top: 300px;
+      margin-left: 20px;
+      border: solid;
+    }
+
+  </style>
+  <title>Portfilo</title>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Steven Brooks Mogbo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About Me<span class="sr-only">(Home)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
-  <body>
-    <h1>Coming Soon Fall 2020</h1>
-  </body>
+<body>
+  <div class="main-image">
+    <div class="container">
+      <div class="row">
+  
+        <div class="card" style="width: 18rem ; display: inline-block;">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <!--img of coming soon-->
+            <p class="card-text">Coming soon.</p>
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;display: inline-block;">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <!--img of coming soon-->
+            <p class="card-text">Coming soon.</p>
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <!--img of coming soon-->
+            <p class="card-text">Coming soon.</p>
+            <a href="#" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </div>
+  </div>
+</body>
+<footer>
+    <div class="card">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Made By Steven Brooks-Mogbo</p>
+          <footer class="blockquote-footer"> 2020</footer>
+        </blockquote>
+      </div>
+    </div>
+</footer>
 </html>
