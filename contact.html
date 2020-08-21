@@ -39,24 +39,41 @@
       margin: 30px;
       padding: 10px;
       float: 40px;
-      
+
       color: blue;
 
 
     }
+
     footer {
-  
+
       bottom: 0;
       width: 100%;
-      height: 60px; /* Set the fixed height of the footer here */
-      line-height: 60px; /* Vertically center the text there */
+      height: 60px;
+      /* Set the fixed height of the footer here */
+      line-height: 60px;
+      /* Vertically center the text there */
       text-align: center;
-  
-    } 
-    .card-body{
+
+    }
+
+    .card-body {
       text-align: center;
       padding: 5px;
       border: 5px;
+    }
+
+    .containerCard{
+      margin: auto;
+      width: 40%;
+      padding: 5px;
+      
+    }
+    #contactForm{
+      margin: auto;
+      width: 80%;
+      padding-left: 60px;
+      padding-right: 20px;
     }
   </style>
 
@@ -64,7 +81,8 @@
 </head>
 
 <body>
-  <header><!--nav bar-->
+  <header>
+    <!--nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Steven Brooks Mogbo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -94,20 +112,22 @@
         <div class="col-12">
           <h1>Contact</h1>
         </div>
-        <div class="container">
+        <div class="containerCard">
           <div class="row">
             <div class="col-9">
-                <div class="card">
-                  <div class="card-body"><!--contact card-->
-                    <p>Email:</p><a href= " mailto:stevenmogbo@yahoo.com"> Stevenmogbo@yahoo.com </a>
-                    <p>Github:</p> <a href = "https://github.com/SBMogbo" > SBMogbo </a>
-                  </div>
+              <div class="card">
+                <div class="card-body">
+                  <!--contact card-->
+                  <p>Email:</p><a href=" mailto:stevenmogbo@yahoo.com"> Stevenmogbo@yahoo.com </a>
+                  <p>Github:</p> <a href="https://github.com/SBMogbo"> SBMogbo </a>
                 </div>
               </div>
+            </div>
           </div>
         </div>
         <div class="col-10">
-          <form><!--form for guest-->
+          <form id="contactForm">
+            <!--form for guest-->
             <div class="form-group">
               <label for="exampleFormControlInput1">Email address</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -130,8 +150,7 @@
                 <option>Morning</option>
                 <option>Afternoon</option>
                 <option>Evening</option>
-                <option>Never</option>
-                <option>IDK</option>
+                <option>N/A</option>
               </select>
             </div>
             <div class="form-group">
@@ -139,17 +158,18 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </form>
-          </div>
-        </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
 </body>
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <footer><!--footer-->
+      <footer>
+        <!--footer-->
         <p>Made By Steven Brooks-Mogbo</p>
       </footer>
     </div>
