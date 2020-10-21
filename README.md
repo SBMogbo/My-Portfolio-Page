@@ -2,5 +2,4 @@
 My Protfilo page:
 Html
 Css
-Added Link to first project 
-Will update soon once I learn more skills 
+added links to my other sites that include more technology 

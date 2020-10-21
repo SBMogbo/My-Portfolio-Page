@@ -9,64 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <style>
-    .navbar {
-      min-height: 80px;
-      border: solid;
-    }
-
-    h1 {
-      text-align: center;
-      color: white;
-      background-color: grey;
-      margin-bottom: 15px;
-    }
-
-    p,
-    div {
-      text-align: center;
-    }
-
-    .main-image {
-      border: whitesmoke solid 5px;
-      width: 100%;
-      height: 600px;
-      background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      opacity: 2.0;
-      font-family: 'Bangers', cursive;
-      border: solid;
-      margin-bottom: 25px;
-    }
-
-
-    .card {
-
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      color:black;
-      
-
-
-    }
-
-    footer {
-
-      bottom: 0;
-      width: 100%;
-      height: 60px;
-      /* Set the fixed height of the footer here */
-      line-height: 60px;
-      /* Vertically center the text there */
-      text-align: center;
-
-    }
-    
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -102,14 +45,11 @@
           <div class="col-12">
             <h1>About Me</h1>
           </div>
-          <div class="container">
+          <div class="container" id="mainArea">
             <!--Profile Image-->
-            <div class="card" style="width: 18rem; height: 18rem;">
-              <img src="Bio1.jpg " class="card-img-top" alt="Steven Brooks Mogbo">
-              <div class="card-body">
-                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmit esse
-                  cillum dolore eu fugiat nulla pariatur. </p>
-              </div>
+            <div  id="pictureArea">
+              <img src="assets/Bio1.jpg" class="card-img-top" alt="Steven Brooks Mogbo">
+              <p class="card-text">Learning and improving my skills in Fullstack Development. </p>
             </div>
           </div>
         </div>
