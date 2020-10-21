@@ -1,5 +1,6 @@
-# HW2
+# My page
 My Protfilo page:
 Html
 Css
-added links to my other sites that include more technology 
+Added Link to first project 
+will update soon once I learn more skills 
